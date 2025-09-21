@@ -9,3 +9,7 @@ List Tasks By Opject Oryanted Programming
 5- Make a end_onec_task() Function
 6- Make a exit() Function
 7- revwie the code
+
+comments:-
+if list of tasks not in onec task not show function (2, 3, 4)
+if in list tasks or one task my program show function (2, 3, 4)
