@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    color: #eeeeee;
+}
+body{
+    background: #012;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+.img-header{
+    height: 60px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.navigation a:hover{
+    color: #00adb5;
+}
+hr{
+    opacity: 0.3;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1000px;
+}
+.arrow{
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.heroSub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name{
+    font-size: 3rem;
+    color: #eeeeee;
+    padding-bottom: 0;
+}
+.title{
+    font-size: 4rem;
+    color: #00adb5;
+    padding-top: 0;
+}
+.heroBtns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.hireMe{
+    background-color: #00adb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.5);
+}
+.cv{
+    background-color: rgb(57, 62, 70, 0.75);
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    backdrop-filter: blur(4px);
+    width: 200px;
+    transform: translateY(15px);
+}
+.aboutMe{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1000px;
+    gap: 10rem;
+}
+.textCotiner{
+    display: flex;
+    flex-direction: column;
+}
+.textTitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutName{
+    color: #eeeeee;
+}
+.aboutTitle{
+    color: #00adb5;
+    padding-left: 7px;
+}
+.aboutMePar{
+    text-align: justify;
+    color: rgb(238, 238, 238, 0.75);
+}
+.works{
+    background-image: url(assets/svg/background.svg);
+    height: 1100px;
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+.projectTitle .aboutName{
+    font-size: 39px;
+}
+.projectTitle .aboutTitle{
+    font-size: 39px;
+}
+.worksContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5rem auto;
+    max-width: 1000px;
+}
+.works ul li p{
+    color: #eeeeee;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.works ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.works li{
+    border-radius: 16px;
+    background-color: rgb(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem 4rem;
+    margin-top: 10px;
+}
+.works li img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+.works li a img:hover{
+    transform: scale(1.5);
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+}
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5erm;
+    gap: 20rem;
+}
+.contact h3, .contact h1{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.emailAndPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+.socialMedia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(57, 62, 70, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    transition: 1s;
+}
+.socialMedia img{
+    width: 24px;
+    height: 24px;
+}
+.instgram img{
+    height: 28px;
+    width: 28px;
+    margin: 0;
+}
+.instgram:hover{
+    background-color: #ee1148;
+}
+.github:hover{
+    background-color: black;
+}
+.twitter:hover{
+    background-color: #1da1f2;
+}
+.youtube:hover{
+    background-color: #ff0000;
+}
+footer{
+    color: #eeeeee;
+    padding: 1rem;
+    text-align: center;
+    zoom: 150%;
+}
